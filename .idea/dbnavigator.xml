@@ -28,7 +28,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="0b72726d-8115-4dca-b26f-47ce29c982d9">
-      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[select * from qa_leatn]]></console>
+      <console name="Connection" type="STANDARD" schema="information_schema" session="Main"><![CDATA[select * from school]]></console>
     </connection>
     <connection id="9a030683-7a01-43fc-a160-e4ae6ddf5947">
       <console name="localhost" type="STANDARD" schema="mysql" session="Main" />
