@@ -14,7 +14,7 @@ public class SelectTable {
             ResultSet rs = statement.executeQuery(sql);
 
             while (rs.next()) {
-                System.out.println("Данные");
+                System.out.println("Данные студента");
                 System.out.println("\tid: " + rs.getInt("id"));
                 System.out.println("\tNumber_group: " + rs.getInt("Number_group"));
                 System.out.println("\tFIO: " + rs.getString("FIO"));
